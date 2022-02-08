@@ -2,15 +2,21 @@
  
   <div id="app">
 <AdminMenu />
+  <!-- <Cardrestaurant/> -->
   </div>
 </template>
-
+ 
 <script>
-import AdminMenu from "../src/AdminMenu.vue"
+import AdminMenu from "./components/AdminMenu.vue"
+
+// import {Cardrestaurant} from "./components/Cardrestaurant"
+
 export default {
   name: "App",
   components: {
     AdminMenu,
+    // Cardrestaurant
+    
   }
 }
 </script>
