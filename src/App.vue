@@ -1,18 +1,16 @@
 <template>
-  
-  <div id="app">
-  Hello
-  </div>
  
+  <div id="app">
+<AdminMenu />
+  </div>
 </template>
 
 <script>
-
-
+import AdminMenu from "../src/AdminMenu.vue"
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    
+    AdminMenu,
   }
 }
 </script>
